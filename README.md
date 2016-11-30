@@ -1,4 +1,4 @@
-# Angular Quick QuickStart
+# Angular 2 Typescript Quick-QuickStart
 
 This is a fork of Angular's quickstart tutorial. This version is stripped down even more by removing all the **test packages and files** that are sprinkled all throughout the original quickstart. 
 
