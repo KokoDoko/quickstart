@@ -2,8 +2,6 @@
 
 This is a fork of Angular's quickstart tutorial. This version is stripped down even more by removing all the **test packages and files** that are sprinkled all throughout the original quickstart. 
 
-Build a project with the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html).
-
 ## Prerequisites
 
 Node.js v4 and npm v3
@@ -23,8 +21,6 @@ rd .git /S/Q # windows
 
 ## Install npm packages
 
-> See npm and nvm version notes above
-
 Install the npm packages described in the `package.json` and verify that it works:
 
 ```bash
@@ -32,10 +28,14 @@ npm install
 npm start
 ```
 
-The `npm start` command first compiles the application, 
-then simultaneously re-compiles and runs the `lite-server`.
-Both the compiler and the server watch for file changes.
+The `npm start` command first compiles the application, then opens a live browser
+that updates when you save new changes. You can shut it down with `Ctrl-C`.
 
-Shut it down manually with `Ctrl-C`.
+## Build Hello World
 
-You're ready to write your application.
+Open **app.component.ts** and edit the variable in the class:
+
+ `export class AppComponent  { name = 'YourNameHere'; }` 
+
+Save the typescript file and check if the compiler runs, and the browser window is refreshed!
+If this works, you can follow the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html).
