@@ -1,6 +1,6 @@
-# Angular 2 Typescript Quick-QuickStart
+# Angular 2 Typescript Workshop
 
-This is a fork of Angular's quickstart tutorial. This version is stripped down even more by removing all the **test packages and files** that are sprinkled all throughout the original quickstart. 
+This is a fork of Angular's quickstart tutorial without the **test packages and files**, and it includes a test component and css for a workshop.
 
 ## Prerequisites
 
