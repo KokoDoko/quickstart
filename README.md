@@ -1,6 +1,6 @@
 # Angular 2 Typescript Workshop
 
-This is a fork of Angular's quickstart tutorial without the **test packages and files**, and it includes a test component and css for a workshop.
+This is a fork of Angular's quickstart tutorial without the **test packages and files**. It includes files for a small Typescript + Angular workshop, where we will fetch Star Wars data and display the data in Angular views.
 
 ## Prerequisites
 
