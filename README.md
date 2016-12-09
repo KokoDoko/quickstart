@@ -39,4 +39,3 @@ Open **app.component.ts** and edit the variable in the class:
  `export class AppComponent  { name = 'YourNameHere'; }` 
 
 Save the typescript file and check if the compiler runs, and the browser window is refreshed!
-If this works, you can follow the [angular.io quickstart](https://angular.io/docs/ts/latest/quickstart.html).
